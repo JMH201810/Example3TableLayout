@@ -4141,8 +4141,8 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f090010
 			public const int MvxBindingTagUnique = 2131296272;
 			
-			// aapt resource value: 0x7f090089
-			public const int action0 = 2131296393;
+			// aapt resource value: 0x7f09008a
+			public const int action0 = 2131296394;
 			
 			// aapt resource value: 0x7f090066
 			public const int action_bar = 2131296358;
@@ -4165,17 +4165,17 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f090043
 			public const int action_bar_title = 2131296323;
 			
-			// aapt resource value: 0x7f090086
-			public const int action_container = 2131296390;
+			// aapt resource value: 0x7f090087
+			public const int action_container = 2131296391;
 			
 			// aapt resource value: 0x7f090067
 			public const int action_context_bar = 2131296359;
 			
-			// aapt resource value: 0x7f09008d
-			public const int action_divider = 2131296397;
+			// aapt resource value: 0x7f09008e
+			public const int action_divider = 2131296398;
 			
-			// aapt resource value: 0x7f090087
-			public const int action_image = 2131296391;
+			// aapt resource value: 0x7f090088
+			public const int action_image = 2131296392;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -4192,11 +4192,11 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f090045
 			public const int action_mode_close_button = 2131296325;
 			
-			// aapt resource value: 0x7f090088
-			public const int action_text = 2131296392;
+			// aapt resource value: 0x7f090089
+			public const int action_text = 2131296393;
 			
-			// aapt resource value: 0x7f090096
-			public const int actions = 2131296406;
+			// aapt resource value: 0x7f090097
+			public const int actions = 2131296407;
 			
 			// aapt resource value: 0x7f090046
 			public const int activity_chooser_view_content = 2131296326;
@@ -4225,8 +4225,8 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f09004d
 			public const int buttonPanel = 2131296333;
 			
-			// aapt resource value: 0x7f09008a
-			public const int cancel_action = 2131296394;
+			// aapt resource value: 0x7f09008b
+			public const int cancel_action = 2131296395;
 			
 			// aapt resource value: 0x7f090032
 			public const int center = 2131296306;
@@ -4240,8 +4240,8 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f09005d
 			public const int checkbox = 2131296349;
 			
-			// aapt resource value: 0x7f090092
-			public const int chronometer = 2131296402;
+			// aapt resource value: 0x7f090093
+			public const int chronometer = 2131296403;
 			
 			// aapt resource value: 0x7f09003b
 			public const int clip_horizontal = 2131296315;
@@ -4300,8 +4300,8 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f090023
 			public const int end = 2131296291;
 			
-			// aapt resource value: 0x7f09009c
-			public const int end_padder = 2131296412;
+			// aapt resource value: 0x7f09009d
+			public const int end_padder = 2131296413;
 			
 			// aapt resource value: 0x7f09002c
 			public const int enterAlways = 2131296300;
@@ -4339,8 +4339,8 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f09004b
 			public const int icon = 2131296331;
 			
-			// aapt resource value: 0x7f090097
-			public const int icon_group = 2131296407;
+			// aapt resource value: 0x7f090098
+			public const int icon_group = 2131296408;
 			
 			// aapt resource value: 0x7f090027
 			public const int ifRoom = 2131296295;
@@ -4348,8 +4348,8 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f090048
 			public const int image = 2131296328;
 			
-			// aapt resource value: 0x7f090093
-			public const int info = 2131296403;
+			// aapt resource value: 0x7f090094
+			public const int info = 2131296404;
 			
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
@@ -4360,11 +4360,11 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f090036
 			public const int left = 2131296310;
 			
-			// aapt resource value: 0x7f090098
-			public const int line1 = 2131296408;
+			// aapt resource value: 0x7f090099
+			public const int line1 = 2131296409;
 			
-			// aapt resource value: 0x7f09009a
-			public const int line3 = 2131296410;
+			// aapt resource value: 0x7f09009b
+			public const int line3 = 2131296411;
 			
 			// aapt resource value: 0x7f090011
 			public const int listMode = 2131296273;
@@ -4372,11 +4372,11 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f09004a
 			public const int list_item = 2131296330;
 			
-			// aapt resource value: 0x7f09009e
-			public const int masked = 2131296414;
+			// aapt resource value: 0x7f09009f
+			public const int masked = 2131296415;
 			
-			// aapt resource value: 0x7f09008c
-			public const int media_actions = 2131296396;
+			// aapt resource value: 0x7f09008d
+			public const int media_actions = 2131296397;
 			
 			// aapt resource value: 0x7f090024
 			public const int middle = 2131296292;
@@ -4399,14 +4399,14 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f090012
 			public const int normal = 2131296274;
 			
-			// aapt resource value: 0x7f090095
-			public const int notification_background = 2131296405;
+			// aapt resource value: 0x7f090096
+			public const int notification_background = 2131296406;
+			
+			// aapt resource value: 0x7f090090
+			public const int notification_main_column = 2131296400;
 			
 			// aapt resource value: 0x7f09008f
-			public const int notification_main_column = 2131296399;
-			
-			// aapt resource value: 0x7f09008e
-			public const int notification_main_column_container = 2131296398;
+			public const int notification_main_column_container = 2131296399;
 			
 			// aapt resource value: 0x7f090039
 			public const int parallax = 2131296313;
@@ -4426,14 +4426,17 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f09005f
 			public const int radio = 2131296351;
 			
+			// aapt resource value: 0x7f090086
+			public const int recycler_view = 2131296390;
+			
 			// aapt resource value: 0x7f090037
 			public const int right = 2131296311;
 			
-			// aapt resource value: 0x7f090094
-			public const int right_icon = 2131296404;
+			// aapt resource value: 0x7f090095
+			public const int right_icon = 2131296405;
 			
-			// aapt resource value: 0x7f090090
-			public const int right_side = 2131296400;
+			// aapt resource value: 0x7f090091
+			public const int right_side = 2131296401;
 			
 			// aapt resource value: 0x7f09001c
 			public const int screen = 2131296284;
@@ -4528,8 +4531,8 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f090038
 			public const int start = 2131296312;
 			
-			// aapt resource value: 0x7f09008b
-			public const int status_bar_latest_event_content = 2131296395;
+			// aapt resource value: 0x7f09008c
+			public const int status_bar_latest_event_content = 2131296396;
 			
 			// aapt resource value: 0x7f090060
 			public const int submenuarrow = 2131296352;
@@ -4540,11 +4543,11 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f090013
 			public const int tabMode = 2131296275;
 			
-			// aapt resource value: 0x7f09009b
-			public const int text = 2131296411;
+			// aapt resource value: 0x7f09009c
+			public const int text = 2131296412;
 			
-			// aapt resource value: 0x7f090099
-			public const int text2 = 2131296409;
+			// aapt resource value: 0x7f09009a
+			public const int text2 = 2131296410;
 			
 			// aapt resource value: 0x7f090054
 			public const int textSpacerNoButtons = 2131296340;
@@ -4561,8 +4564,8 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f09000d
 			public const int textinput_error = 2131296269;
 			
-			// aapt resource value: 0x7f090091
-			public const int time = 2131296401;
+			// aapt resource value: 0x7f090092
+			public const int time = 2131296402;
 			
 			// aapt resource value: 0x7f09004c
 			public const int title = 2131296332;
@@ -4603,8 +4606,8 @@ namespace Example3TableLayout.Droid
 			// aapt resource value: 0x7f09000e
 			public const int view_offset_helper = 2131296270;
 			
-			// aapt resource value: 0x7f09009d
-			public const int visible = 2131296413;
+			// aapt resource value: 0x7f09009e
+			public const int visible = 2131296414;
 			
 			// aapt resource value: 0x7f090029
 			public const int withText = 2131296297;
@@ -4855,7 +4858,10 @@ namespace Example3TableLayout.Droid
 			public const int support_simple_spinner_dropdown_item = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int toolbar = 2130968638;
+			public const int table_cell_view = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public const int toolbar = 2130968639;
 			
 			static Layout()
 			{

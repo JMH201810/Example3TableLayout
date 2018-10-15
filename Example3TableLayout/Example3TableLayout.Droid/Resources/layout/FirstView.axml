@@ -15,18 +15,11 @@
                  android:layout_below="@id/toolbar_layout" 
                  android:layout_width="match_parent" 
                  android:layout_height="match_parent">
- <!--       <LinearLayout android:orientation="vertical" 
-                      android:layout_width="match_parent" 
-                      android:layout_height="match_parent">
-            <EditText android:layout_width="match_parent" 
-                      android:layout_height="wrap_content" 
-                      android:textSize="40dp" 
-                      local:MvxBind="Text Hello" />
-            <TextView android:layout_width="match_parent" 
-                      android:layout_height="wrap_content" 
-                      android:textSize="40dp" 
-                      local:MvxBind="Text Hello" />
-        </LinearLayout>
--->
+        <mvvmcross.droid.support.v7.recyclerview.MvxRecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_view"
+            local:MvxItemTemplate="@layout/table_cell_view"
+            local:MvxBind="ItemsSource TableCells" />
     </FrameLayout>
 </RelativeLayout>
