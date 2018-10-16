@@ -12,5 +12,5 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="20dp"
         android:textSize="16sp"
-        local:MvxBind="Text Title" />
+        local:MvxBind="Text Title; Click ClickCommand" />
 </RelativeLayout>
