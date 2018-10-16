@@ -121,6 +121,9 @@
     <Compile Include="Views\FirstView.cs" />
     <Compile Include="Views\BaseView.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Views\Child1View.cs" />
+    <Compile Include="Views\Child2View.cs" />
+    <Compile Include="Views\Child3View.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />

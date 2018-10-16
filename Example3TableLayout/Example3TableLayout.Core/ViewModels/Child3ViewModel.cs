@@ -11,6 +11,8 @@ namespace Example3TableLayout.Core.ViewModels
         public Child3ViewModel(IMvxNavigationService navigationService)
         {
             this.navigationService = navigationService;
+
+            ExampleReturnCommand = new MvxAsyncCommand(ExampleReturn);
         }
 
         public IMvxAsyncCommand ExampleReturnCommand { get; }

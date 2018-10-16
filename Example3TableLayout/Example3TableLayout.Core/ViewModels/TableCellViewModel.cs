@@ -5,7 +5,7 @@ namespace Example3TableLayout.Core.ViewModels
     public class TableCellViewModel : MvxViewModel
     {
         private string _title;
-        private MvxCommand _clickCommand;
+        private MvxAsyncCommand _clickCommand;
 
         public string Title
         {
@@ -13,7 +13,7 @@ namespace Example3TableLayout.Core.ViewModels
             set => SetProperty(ref _title, value);
         }
 
-        public MvxCommand ClickCommand
+        public MvxAsyncCommand ClickCommand
         {
             get => _clickCommand;
             set => SetProperty(ref _clickCommand, value);
