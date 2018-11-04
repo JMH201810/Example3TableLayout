@@ -2,6 +2,10 @@ using MvvmCross.Core.ViewModels;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using MvvmCross.Core.Navigation;
+using Example3TableLayout.Core.Services;
+using System.Collections.Generic;
+using Example3TableLayout.Core.Models;
+
 
 namespace Example3TableLayout.Core.ViewModels
 {
@@ -20,23 +24,36 @@ namespace Example3TableLayout.Core.ViewModels
 
             TableCells = new ObservableCollection<TableCellViewModel>();
 
-            TableCells.Add(new TableCellViewModel
-            {
-                Title = "First Cell",
-                ClickCommand = new MvxAsyncCommand(Navigate2Child1)
-            });
+            DatabaseManager dbmgr = new DatabaseManager();
 
-            TableCells.Add(new TableCellViewModel
-            {
-                Title = "Second Cell",
-                ClickCommand = new MvxAsyncCommand(Navigate2Child2)
-            });
+            List<Categories> lst = dbmgr.GetCategories();
 
-            TableCells.Add(new TableCellViewModel
+            foreach (Categories cat in lst)
             {
-                Title = "Third Cell",
-                ClickCommand = new MvxAsyncCommand(Navigate2Child3)
-            });
+                TableCells.Add(new TableCellViewModel
+                {
+                    Title = cat.Name,
+                    ClickCommand = new MvxAsyncCommand(Navigate2Child1)
+                });
+            }
+
+            //TableCells.Add(new TableCellViewModel
+            //{
+            //    Title = "First Cell",
+            //    ClickCommand = new MvxAsyncCommand(Navigate2Child1)
+            //});
+
+            //TableCells.Add(new TableCellViewModel
+            //{
+            //    Title = "Second Cell",
+            //    ClickCommand = new MvxAsyncCommand(Navigate2Child2)
+            //});
+
+            //TableCells.Add(new TableCellViewModel
+            //{
+            //    Title = "Third Cell",
+            //    ClickCommand = new MvxAsyncCommand(Navigate2Child3)
+            //});
 
         }
 
